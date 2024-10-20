@@ -1,0 +1,41 @@
+/* widht 480-320px */
+
+@media (max-width: 480px) {
+  /* header */
+  header {
+    padding-inline: 8px;
+  }
+  /* section_one */
+  .section_one {
+    padding-top: 60px;
+    height: 320px;
+  }
+  .section_one_a {
+    height: 40px;
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .arrow_section {
+    width: 40px;
+  }
+  .arrow {
+    width: 30px;
+    height: 30px;
+  }
+  /* section_two*/
+  .section_two_header {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .cards_section {
+    padding-inline: 24px;
+  }
+  .cards_section {
+    padding-inline: 8px;
+  }
+  /* footer */
+  footer {
+    flex-direction: column;
+    gap: 32px;
+}
+}
